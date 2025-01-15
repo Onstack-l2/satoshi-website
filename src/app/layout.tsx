@@ -1,5 +1,5 @@
-"use client";
-// import type { Metadata } from "next";
+// "use client";
+import type { Metadata } from "next";
 import { Anonymous_Pro } from "next/font/google";
 import clsx from "clsx";
 
@@ -11,10 +11,10 @@ export const anonymousPro = Anonymous_Pro({
   subsets: ["latin"],
 });
 
-// export const metadata: Metadata = {
-//   title: "Satoshi Miner",
-//   description: "Satoshi Miner",
-// };
+export const metadata: Metadata = {
+  title: "Satoshi Miner",
+  description: "Satoshi Miner",
+};
 
 export default function RootLayout({
   children,
