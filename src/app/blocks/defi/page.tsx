@@ -241,7 +241,7 @@ export default function BlockThree() {
         </div>
 
         <div className="flex flex-1 w-full lg:mt-auto mb-[-24px] mt-10 justify-center lg:justify-start">
-          <div className="h-fit w-full max-w-[502px] text-left relative">
+          <div className="h-fit w-full max-w-[502px] text-left relative flex flex-col">
             <TriangelBox>
               <h5 className="text-[#E8B14B] text-base">
                 Stake, Farm, Ape and Earn Without Breaking a Sweat Say goodbye
@@ -256,13 +256,13 @@ export default function BlockThree() {
               </h3>
             </div>
 
-            <div className="overflow-hidden mt-[-244px] sm:mt-[-140px] w-[463px] h-[446]">
+            <div className="sm:mt-[-140px] w-[463px] h-[446x] ml-auto">
               <Image
                 src="/icons/character-3.svg"
                 width={463}
                 height={446}
                 alt=""
-                className="mt-[-20px] sm:mt-[-38px] sm:ml-[142px] absolute lg:right-[-35%] bottom-0"
+                className="ml-auto"
               />
             </div>
           </div>
