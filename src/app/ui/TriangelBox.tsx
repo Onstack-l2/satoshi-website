@@ -1,5 +1,3 @@
-import clsx from "clsx";
-
 const Triangel = () => {
   return (
     <div className="relative flex w-[89px] h-[52px]">

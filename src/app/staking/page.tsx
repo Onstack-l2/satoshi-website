@@ -1,5 +1,4 @@
 import IconImage from "@/app/ui/IconImage";
-import TriangelBox from "@/app/ui/TriangelBox";
 import clsx from "clsx";
 
 import Image from "next/image";
@@ -100,25 +99,6 @@ const Background = ({ className }: { className?: string }) => {
           })}
         </div>
       </div>
-    </div>
-  );
-};
-
-const ButtonActions = () => {
-  return (
-    <div className="flex gap-[10px] flex-col sm:flex-row w-full justify-center lg:justify-start">
-      <a
-        className="px-[20px] py-[9px] bg-[#E8B14B] text-[#112030] rounded-md whitespace-nowrap text-center"
-        href="#"
-      >
-        On Telegram
-      </a>
-      <a
-        className="px-[20px] py-[9px] bg-transparent  border border-1 border-[#E8B14B] rounded-md text-[#E8B14B] whitespace-nowrap text-center"
-        href="#"
-      >
-        In Browser (coming soon)
-      </a>
     </div>
   );
 };

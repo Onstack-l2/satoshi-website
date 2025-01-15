@@ -1,5 +1,4 @@
 import IconImage from "@/app/ui/IconImage";
-import TriangelBox from "@/app/ui/TriangelBox";
 import clsx from "clsx";
 
 import Image from "next/image";
