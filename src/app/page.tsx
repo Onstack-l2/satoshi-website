@@ -3,7 +3,7 @@ import Link from "next/link";
 import IconImage from "./ui/IconImage";
 import TriangelBox from "./ui/TriangelBox";
 import DesktopPageNavigation from "./ui/DesktopPageNavigation";
-import Background from "./ui/background/HomeBg";
+import HomeBg from "./ui/background/HomeBg";
 
 const homeContent = {
   header: "Turn Your Phone Into a Money Printer",
@@ -164,7 +164,7 @@ export default function Home() {
       </div>
 
       <div className="absolute bottom-0 right-0 w-full overflow-hidden flex justify-end">
-        <Background className="!h-[calc(100vh - 170px)] !w-full" />
+        <HomeBg className="!h-[calc(100vh - 170px)] !w-full" />
       </div>
     </>
   );
