@@ -5,21 +5,22 @@ import { useEffect, useRef, useState } from "react";
 import IconImage from "./IconImage";
 import clsx from "clsx";
 import Link from "next/link";
+import { headerButtons } from "@/data/siteContent.json";
 
 const ButtonActions = ({ className }: { className?: string }) => {
   return (
     <div className={clsx("flex gap-[10px] h-[40px]", className)}>
       <Link
         className="px-[20px] py-[9px] bg-[#E8B14B] text-[#112030] rounded-md"
-        href="#"
+        href={headerButtons.ctaButtonLeft.link}
       >
-        Whitepaper
+        {headerButtons.ctaButtonLeft.text}
       </Link>
       <Link
         className="px-[20px] py-[9px] bg-transparent  border border-1 border-[#E8B14B] rounded-md text-[#E8B14B]"
-        href="#"
+        href={headerButtons.ctaButtonRight.link}
       >
-        Buy $satBTC
+        {headerButtons.ctaButtonRight.text}
       </Link>
     </div>
   );

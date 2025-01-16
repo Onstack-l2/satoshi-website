@@ -1,4 +1,14 @@
 {
+  "headerButtons": {
+    "ctaButtonLeft": {
+      "text": "Whitepaper",
+      "link": "/#cta-whitepaper"
+    },
+    "ctaButtonRight": {
+      "text": "Buy $satBTC",
+      "link": "/#cta-buy-$satBTC"
+    }
+  },
   "topAlertMessage": {
     "slideDuration": "50s",
     "items": [
