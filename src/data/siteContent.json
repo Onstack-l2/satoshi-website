@@ -1,4 +1,46 @@
 {
+  "topAlertMessage": {
+    "slideDuration": "50s",
+    "items": [
+      {
+        "highlight": "BREAKING NEWS:",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        "highlight": "BREAKING NEWS:",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        "highlight": "BREAKING NEWS:",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        "highlight": "BREAKING NEWS:",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      }
+    ]
+  },
+  "bottomAlertMessage": {
+    "slideDuration": "50s",
+    "items": [
+      {
+        "highlight": "BREAKING NEWS:",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        "highlight": "BREAKING NEWS:",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        "highlight": "BREAKING NEWS:",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        "highlight": "BREAKING NEWS:",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      }
+    ]
+  },
   "homeContent": {
     "header": "Turn Your Phone Into a Money Printer",
     "subHeader": "Why stress over charts when you can mine, ape-in, and stake your way to crypto glory-all from your phone?",
