@@ -3,21 +3,7 @@ import TriangelBox from "@/app/ui/TriangelBox";
 import clsx from "clsx";
 import BlockOneBg from "@/app/ui/background/BlockOneBg";
 import Link from "next/link";
-
-const blockOneContent = {
-  header: "Block One",
-  title: "Why Satoshi Miner?",
-  subtitle: "Because Crypto Should Be Fun, Not Stressful",
-  description:
-    "Forget the anxiety of trading; we’ve cracked the code to make DeFi entertaining:",
-  listItems: [
-    "Tap, Earn, Repeat: Simplified mining that anyone can play.",
-    "BTCFi Meets TON: Bridging the Bitcoin ethos with Telegram’s largest blockchain.",
-    "DeFi Gamified: Stake, farm, and grow your portfolio—all in a game",
-  ],
-  footer:
-    "You bring the vibes; we’ll bring the gains. It’s time to level up your crypto game.",
-};
+import { blockOneContent } from "@/data/siteContent.json";
 
 export default function BlockOne() {
   return (
@@ -132,7 +118,7 @@ export default function BlockOne() {
 
             <div className="w-[573px] mt-6 z-10">
               <h3 className="text-white text-xl leading-6 sm:w-[343px] max-w-full text-left relative z-10 w-[30%]">
-                {blockOneContent.footer}
+                {blockOneContent.characterSpeech}
               </h3>
             </div>
             <div className="absolute bottom-0 right-0 md:right-[-8%] z-0 mb-[-24px]">

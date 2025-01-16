@@ -1,25 +1,7 @@
 import Link from "next/link";
 import IconImage from "../ui/IconImage";
 import BlocksBg from "../ui/background/BlocksBg";
-
-const genesisBlockContent = {
-  title: "Genesis Block",
-  subtitle: "The Genesis of Satoshi Miner",
-  description: [
-    {
-      color: "#E38539",
-      text: "From Mining Rigs to Meme Empires",
-    },
-    {
-      color: "white",
-      text: "Once upon a blockchain, there was Satoshi Nakamoto and Bitcoin—the OG of decentralization. Then came Satoshi Miner, your next-gen crypto playground.",
-    },
-    {
-      color: "#E38539",
-      text: "We took Bitcoin’s legacy, added memes, and layered on the Telegram to create the ultimate BTCFi experience. From solo mining to cooperation hubs, we’re here to gamify finance for the masses.",
-    },
-  ],
-};
+import { genesisBlockContent } from "@/data/siteContent.json";
 
 export default function GenesisBlock() {
   return (

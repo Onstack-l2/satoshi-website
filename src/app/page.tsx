@@ -4,37 +4,7 @@ import IconImage from "./ui/IconImage";
 import TriangelBox from "./ui/TriangelBox";
 import DesktopPageNavigation from "./ui/DesktopPageNavigation";
 import HomeBg from "./ui/background/HomeBg";
-
-const homeContent = {
-  header: "Turn Your Phone Into a Money Printer",
-  subHeader:
-    "Why stress over charts when you can mine, ape-in, and stake your way to crypto glory-all from your phone?",
-  description:
-    "Satoshi Miner transforms casual gaming into DeFi, blending the thrill of mining with the power of Telegram.",
-  stats: {
-    players: "Join 3M+ players mining their way to $50M TVL.",
-    ctaButton: "JOIN SATOSHI MINER",
-    ctaDescription: "Why work hard when you can play smart?",
-  },
-  features: {
-    title: "It’s like a cheat code for your wallet:",
-    list: [
-      {
-        highlight: "Tap to Mine:",
-        description: "Earn Satoshi Coins just by playing.",
-      },
-      {
-        highlight: "Raiding & Strategy:",
-        description: "Outsmart your rivals and stack those rewards.",
-      },
-      {
-        highlight: "DeFi Made Fun:",
-        description:
-          "Stake, collaborate, ape-in, and farm yields with zero stress.",
-      },
-    ],
-  },
-};
+import { homeContent } from "@/data/siteContent.json";
 
 export default function Home() {
   return (

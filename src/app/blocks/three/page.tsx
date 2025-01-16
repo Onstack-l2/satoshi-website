@@ -2,37 +2,9 @@ import DesktopPageNavigation from "@/app/ui/DesktopPageNavigation";
 import IconImage from "@/app/ui/IconImage";
 import TriangelBox from "@/app/ui/TriangelBox";
 import BlockThreeBg from "@/app/ui/background/BlockThreeBg";
-
 import Image from "next/image";
 import Link from "next/link";
-
-const blockThreeContent = {
-  header: "Block Three",
-  title: "The Roadmap",
-  features: {
-    title: "We’re building the future of DeFi, one tap at a time.",
-  },
-  statges: [
-    {
-      title: "Start the Revolution",
-      description:
-        "Launch core gameplay (mining, raiding, Cooperation Hubs.Hit 3M+ players.",
-      phase: "Phase 1",
-    },
-    {
-      title: "Unlock DeFi Power",
-      description:
-        "Integrate staking and yield farming, copy trading and more to Drive $50M+ in TVL.",
-      phase: "Phase 2",
-    },
-    {
-      title: "BTCFi Domination",
-      description:
-        "Full BTCFi to TON to SOL to SUI blockchain integration. \nAchieve 10M players and $500M TVL.",
-      phase: "Phase 3",
-    },
-  ],
-};
+import { blockThreeContent } from "@/data/siteContent.json";
 
 export default function BlockThree() {
   return (

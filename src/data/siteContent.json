@@ -1,0 +1,217 @@
+{
+  "homeContent": {
+    "header": "Turn Your Phone Into a Money Printer",
+    "subHeader": "Why stress over charts when you can mine, ape-in, and stake your way to crypto glory-all from your phone?",
+    "description": "Satoshi Miner transforms casual gaming into DeFi, blending the thrill of mining with the power of Telegram.",
+    "stats": {
+      "players": "Join 3M+ players mining their way to $50M TVL.",
+      "ctaButton": "JOIN SATOSHI MINER",
+      "ctaDescription": "Why work hard when you can play smart?"
+    },
+    "features": {
+      "title": "It’s like a cheat code for your wallet:",
+      "list": [
+        {
+          "highlight": "Tap to Mine:",
+          "description": "Earn Satoshi Coins just by playing."
+        },
+        {
+          "highlight": "Raiding & Strategy:",
+          "description": "Outsmart your rivals and stack those rewards."
+        },
+        {
+          "highlight": "DeFi Made Fun:",
+          "description": "Stake, collaborate, ape-in, and farm yields with zero stress."
+        }
+      ]
+    }
+  },
+
+  "genesisBlockContent": {
+    "title": "Genesis Block",
+    "subtitle": "The Genesis of Satoshi Miner",
+    "description": [
+      {
+        "color": "#E38539",
+        "text": "From Mining Rigs to Meme Empires"
+      },
+      {
+        "color": "white",
+        "text": "Once upon a blockchain, there was Satoshi Nakamoto and Bitcoin—the OG of decentralization. Then came Satoshi Miner, your next-gen crypto playground."
+      },
+      {
+        "color": "#E38539",
+        "text": "We took Bitcoin’s legacy, added memes, and layered on the Telegram to create the ultimate BTCFi experience. From solo mining to cooperation hubs, we’re here to gamify finance for the masses."
+      }
+    ]
+  },
+
+  "blockOneContent": {
+    "header": "Block One",
+    "title": "Why Satoshi Miner?",
+    "subtitle": "Because Crypto Should Be Fun, Not Stressful",
+    "description": "Forget the anxiety of trading; we’ve cracked the code to make DeFi entertaining:",
+    "listItems": [
+      "Tap, Earn, Repeat: Simplified mining that anyone can play.",
+      "BTCFi Meets TON: Bridging the Bitcoin ethos with Telegram’s largest blockchain.",
+      "DeFi Gamified: Stake, farm, and grow your portfolio—all in a game"
+    ],
+    "characterSpeech": "You bring the vibes; we’ll bring the gains. It’s time to level up your crypto game."
+  },
+
+  "blockTwoContent": {
+    "header": "Block Two",
+    "title": "Tokenomics—Powered by $satBTC",
+    "subtitle": "Where GameFi Meets DeFi",
+    "description": "At the core of Satoshi Miner is $satBTC, our token driving by you The Community!",
+    "pieChart": {
+      "items": [
+        {
+          "title": "Liquidity Pool",
+          "description": "Smooth swaps, no rugs—keeping $satBTC solid and tradable.",
+          "percentage": "5%"
+        },
+        {
+          "title": "Development",
+          "description": "Building the world’s next big Degen game with $satBTC utility.",
+          "percentage": "5%"
+        },
+        {
+          "title": "Treasury",
+          "description": "Stash for community events, epic burns, and cross-platform expansions.",
+          "percentage": "10%"
+        },
+        {
+          "title": "Mining Rewards",
+          "description": "For the grinders who tap, raid, and cooperate daily to unlock $satBTC glory.",
+          "percentage": "35%"
+        },
+        {
+          "title": "Staking",
+          "description": "For the early apes who “get it.” Let’s launch fair and loud.",
+          "percentage": "10%"
+        },
+        {
+          "title": "Fair Launch",
+          "description": "For the early apes who “get it.” Let’s launch fair and loud.",
+          "percentage": "15%"
+        },
+        {
+          "title": "Marketing & Partnerships",
+          "description": "Fueling memes, KOLs, and legendary campaigns to go viral.",
+          "percentage": "20%"
+        }
+      ]
+    },
+    "features": {
+      "title": "Why $satBTC?",
+      "list": [
+        {
+          "highlight": "Governance",
+          "description": "Have your say in how the ecosystem evolves."
+        },
+        {
+          "highlight": "Rewards",
+          "description": "Earn $satBTC through gaming, staking, farming and more"
+        },
+        {
+          "highlight": "Cross-Chain Power",
+          "description": "Strengthen liquidity across BTCFi,TON,SOl, SUI & more."
+        }
+      ]
+    },
+    "characterSpeech": "$satBTC isn’t just a token; it’s your ticket to the BTCFi revolution."
+  },
+
+  "blockThreeContent": {
+    "header": "Block Three",
+    "title": "The Roadmap",
+    "features": {
+      "title": "We’re building the future of DeFi, one tap at a time."
+    },
+    "statges": [
+      {
+        "title": "Start the Revolution",
+        "description": "Launch core gameplay (mining, raiding, Cooperation Hubs.Hit 3M+ players.",
+        "phase": "Phase 1"
+      },
+      {
+        "title": "Unlock DeFi Power",
+        "description": "Integrate staking and yield farming, copy trading and more to Drive $50M+ in TVL.",
+        "phase": "Phase 2"
+      },
+      {
+        "title": "BTCFi Domination",
+        "description": "Full BTCFi to TON to SOL to SUI blockchain integration. \nAchieve 10M players and $500M TVL.",
+        "phase": "Phase 3"
+      }
+    ]
+  },
+
+  "blockDefiContent": {
+    "header": "DeFi",
+    "title": "Smarter Gains, Zero Stress",
+    "features": {
+      "title": "Stake, Farm, Ape and Earn Without Breaking a Sweat Say goodbye to market anxiety."
+    },
+    "characterSpeech": "DeFi doesn’t have to be complicated. We’ve made it as simple as tapping a button.",
+    "defiItems": [
+      {
+        "title": "Staking",
+        "description": "Lock up your $satBTC and watch your portfolio grow."
+      },
+      {
+        "title": "Yield Farming",
+        "description": "Partnered with top farming platforms to deliver the best farming opportunities."
+      },
+      {
+        "title": "Degens",
+        "description": "Why stress over charts, ape-in along side the smartest wallets in the game."
+      },
+      {
+        "title": "Cooperation Hubs",
+        "description": "Collaborate with communities to amplify rewards and share mining success."
+      }
+    ]
+  },
+
+  "howToStartContent": {
+    "header": "How-to-Start?",
+    "title": "Join the $satBTC Movement",
+    "stats": {
+      "ctaTitle": "Easy To Get Started",
+      "ctaDescription": "You are just one button away to starting your satBTC journey",
+      "ctaButtonLeft": {
+        "text": "On Telegram",
+        "link": "/how-to-start/#cta-telegram"
+      },
+      "ctaButtonRight": {
+        "text": "In Browser (coming soon)",
+        "link": "/how-to-start/#cta-in-browser"
+      }
+    }
+  },
+
+  "faqsContent": {
+    "header": "FAQ",
+    "title": "Got Questions? We’ve Got Answers",
+    "faqItems": [
+      {
+        "question": "What is Satoshi Miner?",
+        "answer": "A Telegram-based game combining Bitcoin-inspired DeFi (BTCFi) with TON, Sol & Sui blockchain power."
+      },
+      {
+        "question": "How do I earn?",
+        "answer": "Mine, raid, stake, and collaborate through cooperation hubs, farm liquidity and more to earn $satBTC."
+      },
+      {
+        "question": "Is this really DeFi?",
+        "answer": "Absolutely! We gamified it, but the principles remain. Stake, farm, and contribute to TVL seamlessly."
+      },
+      {
+        "question": "Can I get rich playing this?",
+        "answer": "That depends on how good you are at mining, raiding, and staking. Fortune favors the tapped."
+      }
+    ]
+  }
+}

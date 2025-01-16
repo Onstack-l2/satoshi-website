@@ -1,27 +1,9 @@
 import IconImage from "@/app/ui/IconImage";
 import HowToStartBg from "@/app/ui/background/HowToStartBg";
-
 import Image from "next/image";
 import Link from "next/link";
 import DesktopPageNavigation from "../ui/DesktopPageNavigation";
-
-const howToStartContent = {
-  header: "How-to-Start?",
-  title: "Join the $satBTC Movement",
-  stats: {
-    ctaTitle: "Easy To Get Started",
-    ctaDescription:
-      "You are just one button away to starting your satBTC journey",
-    ctaButtonLeft: {
-      text: "On Telegram",
-      link: "/how-to-start/#cta-telegram",
-    },
-    ctaButtonRight: {
-      text: "In Browser (coming soon)",
-      link: "/how-to-start/#cta-in-browser",
-    },
-  },
-};
+import { howToStartContent } from "@/data/siteContent.json";
 
 const ButtonActions = () => {
   return (

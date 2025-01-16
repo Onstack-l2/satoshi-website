@@ -4,38 +4,7 @@ import TriangelBox from "@/app/ui/TriangelBox";
 import DefiBg from "@/app/ui/background/DefiBg";
 import Image from "next/image";
 import Link from "next/link";
-
-const blockDefiContent = {
-  header: "DeFi",
-  title: "Smarter Gains, Zero Stress",
-  features: {
-    title:
-      "Stake, Farm, Ape and Earn Without Breaking a Sweat Say goodbye to market anxiety.",
-  },
-  characterSpeech:
-    "DeFi doesn’t have to be complicated. We’ve made it as simple as tapping a button.",
-  defiItems: [
-    {
-      title: "Staking",
-      description: "Lock up your $satBTC and watch your portfolio grow.",
-    },
-    {
-      title: "Yield Farming",
-      description:
-        "Partnered with top farming platforms to deliver the best farming opportunities.",
-    },
-    {
-      title: "Degens",
-      description:
-        "Why stress over charts, ape-in along side the smartest wallets in the game.",
-    },
-    {
-      title: "Cooperation Hubs",
-      description:
-        "Collaborate with communities to amplify rewards and share mining success.",
-    },
-  ],
-};
+import { blockDefiContent } from "@/data/siteContent.json";
 
 export default function BlockThree() {
   return (

@@ -1,36 +1,9 @@
 import IconImage from "@/app/ui/IconImage";
 import FaqsBg from "@/app/ui/background/FaqsBg";
-
 import Image from "next/image";
 import Link from "next/link";
 import DesktopPageNavigation from "../ui/DesktopPageNavigation";
-
-const faqsContent = {
-  header: "FAQ",
-  title: "Got Questions? We’ve Got Answers",
-  faqItems: [
-    {
-      question: "What is Satoshi Miner?",
-      answer:
-        "A Telegram-based game combining Bitcoin-inspired DeFi (BTCFi) with TON, Sol & Sui blockchain power.",
-    },
-    {
-      question: "How do I earn?",
-      answer:
-        "Mine, raid, stake, and collaborate through cooperation hubs, farm liquidity and more to earn $satBTC.",
-    },
-    {
-      question: "Is this really DeFi?",
-      answer:
-        "Absolutely! We gamified it, but the principles remain. Stake, farm, and contribute to TVL seamlessly.",
-    },
-    {
-      question: "Can I get rich playing this?",
-      answer:
-        "That depends on how good you are at mining, raiding, and staking. Fortune favors the tapped.",
-    },
-  ],
-};
+import { faqsContent } from "@/data/siteContent.json";
 
 export default function Faqs() {
   return (
