@@ -192,7 +192,7 @@ export default function BlockTwo() {
               </ul>
             </TriangelBox>
 
-            <div className="w-full overflow-hidden mb-[-24px]">
+            <div className="w-full overflow-hidden">
               <Image
                 src="/icons/character-3.svg"
                 width={463}

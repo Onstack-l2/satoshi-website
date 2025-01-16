@@ -28,7 +28,7 @@ export default function RootLayout({
         <div className="min-h-screen w-full bg-[#112030] flex flex-col font-bold text-sm">
           <Header />
           <AlertMessage alertMessage={topAlertMessage} />
-          <main className="relative flex-1 flex flex-col gap-8 items-center sm:items-start overflow-auto w-full">
+          <main className="relative flex-1 flex flex-col gap-8 items-center sm:items-start w-full">
             {children}
           </main>
           <AlertMessage className="mt-auto" alertMessage={bottomAlertMessage} />

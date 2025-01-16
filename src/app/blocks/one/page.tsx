@@ -1,9 +1,9 @@
 import IconImage from "@/app/ui/IconImage";
 import TriangelBox from "@/app/ui/TriangelBox";
-import clsx from "clsx";
 import BlockOneBg from "@/app/ui/background/BlockOneBg";
 import Link from "next/link";
 import { blockOneContent } from "@/data/siteContent.json";
+import Image from "next/image";
 
 export default function BlockOne() {
   return (
@@ -103,7 +103,7 @@ export default function BlockOne() {
             </Link>
           </div>
 
-          <div className="w-[573px] max-w-full text-left relative mt-auto h-[428px]">
+          <div className="w-[573px] max-w-full text-left relative mt-auto">
             <TriangelBox>
               <h5 className="text-[#E8B14B] text-base">
                 {blockOneContent.description}
@@ -121,14 +121,14 @@ export default function BlockOne() {
                 {blockOneContent.characterSpeech}
               </h3>
             </div>
-            <div className="absolute bottom-0 right-0 md:right-[-8%] z-0 mb-[-118px] sm:mb-[-24px]">
-              <IconImage
-                iconName="character-2.svg"
+
+            <div className="w-full overflow-hidden mb-[-24px] mt-[-298px] sm:mt-[-150px]">
+              <Image
+                src="/icons/character-2.svg"
                 width={400}
                 height={365}
-                className={clsx(
-                  "z-10 self-end mb-[-24px] mr-[-24px] lg:mr-0 lg:mb-0"
-                )}
+                alt=""
+                className="ml-auto"
               />
             </div>
           </div>
