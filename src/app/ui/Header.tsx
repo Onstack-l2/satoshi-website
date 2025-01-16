@@ -48,12 +48,17 @@ const Logo = () => {
 
 export default function Header() {
   const [isExpanded, setIsExpanded] = useState(false);
+  const [isMobileExpanded, setIsMobileExpanded] = useState(false);
   const [isOpenMenu, setIsOpenMenu] = useState(false);
 
   const pathname = usePathname();
 
   const toggleMenu = () => {
     setIsExpanded(!isExpanded);
+  };
+
+  const toggleMobileMenu = () => {
+    setIsMobileExpanded(!isMobileExpanded);
   };
 
   const toggleOpenMenu = () => {
@@ -65,14 +70,11 @@ export default function Header() {
   };
 
   const dropdownRef = useRef<HTMLDivElement | null>(null);
-  const dropdownMobileRef = useRef<HTMLDivElement | null>(null);
 
   const handleClickOutside = (event: MouseEvent) => {
     if (
       dropdownRef.current &&
-      !dropdownRef.current.contains(event.target as Node) &&
-      dropdownMobileRef.current &&
-      !dropdownMobileRef.current.contains(event.target as Node)
+      !dropdownRef.current.contains(event.target as Node)
     ) {
       setIsExpanded(false);
     }
@@ -314,7 +316,7 @@ export default function Header() {
                 >
                   Home
                 </Link>
-                <div className="-mx-3" ref={dropdownMobileRef}>
+                <div className="-mx-3">
                   <button
                     type="button"
                     className={clsx(
@@ -326,7 +328,7 @@ export default function Header() {
                     )}
                     aria-controls="disclosure-1"
                     aria-expanded="false"
-                    onClick={toggleMenu}
+                    onClick={toggleMobileMenu}
                   >
                     Blocks
                     {/* <!--
@@ -337,7 +339,7 @@ export default function Header() {
                     <svg
                       className={clsx(
                         "size-5 flex-none",
-                        isExpanded ? "rotate-180" : ""
+                        isMobileExpanded ? "rotate-180" : ""
                       )}
                       viewBox="0 0 20 20"
                       fill="#888F97"
@@ -355,7 +357,7 @@ export default function Header() {
                   <div
                     className={clsx(
                       "mt-2 space-y-2",
-                      isExpanded ? "block" : "hidden"
+                      isMobileExpanded ? "block" : "hidden"
                     )}
                     id="disclosure-1"
                   >
