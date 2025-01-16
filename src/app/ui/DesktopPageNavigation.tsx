@@ -16,13 +16,16 @@ const DesktopPageNavigation: React.FC<DesktopPageNavigationProps> = ({
 }) => {
   return (
     <div
-      className="static hidden lg:flex lg:absolute top-[50%] z-40 w-full left-0"
+      className="static hidden lg:flex lg:absolute top-[50%] z-40 w-full left-0 pointer-events-none"
       style={{
         transform: "translateY(-50%)",
       }}
     >
       {!isFirstPage && prevPath && (
-        <Link href={prevPath} className="relative flex items-center">
+        <Link
+          href={prevPath}
+          className="relative flex items-center pointer-events-auto"
+        >
           <IconImage
             iconName="play-icon.svg"
             width={119}
@@ -41,7 +44,10 @@ const DesktopPageNavigation: React.FC<DesktopPageNavigationProps> = ({
         </Link>
       )}
       {!isLastPage && nextPath && (
-        <Link href={nextPath} className="relative flex items-center ml-auto">
+        <Link
+          href={nextPath}
+          className="relative flex items-center ml-auto pointer-events-auto"
+        >
           <IconImage
             iconName="arrow-icon-bg.svg"
             width={70}
