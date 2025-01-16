@@ -59,6 +59,10 @@ export default function Header() {
     setIsOpenMenu(!isOpenMenu);
   };
 
+  const onCloseMenu = () => {
+    setIsOpenMenu(false);
+  };
+
   const dropdownRef = useRef<HTMLDivElement | null>(null);
   const dropdownMobileRef = useRef<HTMLDivElement | null>(null);
 
@@ -305,6 +309,7 @@ export default function Header() {
                     "-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-[#888F97] ",
                     { "text-[#E8B14B] underline": pathname === "/" }
                   )}
+                  onClick={onCloseMenu}
                 >
                   Home
                 </Link>
@@ -359,6 +364,7 @@ export default function Header() {
                         "block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-[#888F97] ",
                         { "text-[#E8B14B] underline": pathname === "/blocks" }
                       )}
+                      onClick={onCloseMenu}
                     >
                       Genesis Block
                     </Link>
@@ -371,6 +377,7 @@ export default function Header() {
                             pathname === "/blocks/one",
                         }
                       )}
+                      onClick={onCloseMenu}
                     >
                       Block One
                     </Link>
@@ -383,6 +390,7 @@ export default function Header() {
                             pathname === "/blocks/two",
                         }
                       )}
+                      onClick={onCloseMenu}
                     >
                       Block Two
                     </Link>
@@ -395,6 +403,7 @@ export default function Header() {
                             pathname === "/blocks/three",
                         }
                       )}
+                      onClick={onCloseMenu}
                     >
                       Block Three
                     </Link>
@@ -407,6 +416,7 @@ export default function Header() {
                             pathname === "/blocks/defi",
                         }
                       )}
+                      onClick={onCloseMenu}
                     >
                       Defi
                     </Link>
@@ -418,6 +428,7 @@ export default function Header() {
                     "-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-[#888F97] ",
                     { "text-[#E8B14B] underline": pathname === "/how-to-start" }
                   )}
+                  onClick={onCloseMenu}
                 >
                   How to start
                 </Link>
@@ -427,6 +438,7 @@ export default function Header() {
                     "-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-[#888F97] ",
                     { "text-[#E8B14B] underline": pathname === "/faqs" }
                   )}
+                  onClick={onCloseMenu}
                 >
                   Faqs
                 </Link>
@@ -436,6 +448,7 @@ export default function Header() {
                     "-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-[#888F97]",
                     { "text-[#E8B14B] underline": pathname === "/staking" }
                   )}
+                  onClick={onCloseMenu}
                 >
                   Staking
                 </Link>
