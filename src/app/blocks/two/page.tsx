@@ -106,7 +106,7 @@ const PieChartBox = () => {
 export default function BlockTwo() {
   return (
     <>
-      <div className="max-w-7xl w-full p-6 mx-auto z-20 flex items-center flex-col lg:flex-row">
+      <div className="max-w-7xl w-full p-6 mx-auto z-20 flex flex-col lg:flex-row flex-1 items-start">
         <DesktopPageNavigation
           prevPath="/blocks/one"
           nextPath="/blocks/three"

@@ -116,12 +116,12 @@ export default function BlockOne() {
               </ul>
             </TriangelBox>
 
-            <div className="w-[573px] mt-6 z-10">
+            <div className="w-[573px] mt-6 z-10 max-w-full">
               <h3 className="text-white text-xl leading-6 sm:w-[343px] max-w-full text-left relative z-10 w-[30%]">
                 {blockOneContent.characterSpeech}
               </h3>
             </div>
-            <div className="absolute bottom-0 right-0 md:right-[-8%] z-0 mb-[-24px]">
+            <div className="absolute bottom-0 right-0 md:right-[-8%] z-0 mb-[-118px] sm:mb-[-24px]">
               <IconImage
                 iconName="character-2.svg"
                 width={400}
