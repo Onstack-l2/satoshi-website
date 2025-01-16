@@ -45,11 +45,11 @@ const AlertMessage = ({ className }: { className?: string }) => {
   return (
     <div
       className={clsx(
-        "w-full flex items-center bg-[#855D38] overflow-hidden",
+        "w-full flex items-start bg-[#855D38] overflow-hidden relative h-5",
         className
       )}
     >
-      <p className="text-[#FFFFFF]  animate-slide whitespace-nowrap">
+      <p className="text-[#FFFFFF]  animate-slide whitespace-nowrap absolute animate-scroll-left top-0 left-0">
         <span className="text-[#E8B14B]">BREAKING NEWS:</span>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
         debitis quaerat, minima voluptas iure repellat. Sit atque cumque, ad
