@@ -53,7 +53,7 @@ const LinesBackground = () => {
   );
 };
 
-const Background = ({ className }) => {
+const BlocksBg = ({ className }) => {
   return (
     <div
       className={clsx(
@@ -65,41 +65,35 @@ const Background = ({ className }) => {
         iconName="btc-icon-bg.svg"
         width={90}
         height={89}
-        className="absolute top-[83px] left-[22px] hidden xl-custom:block"
+        className="absolute top-[83px] left-[22px]  hidden sm:block"
       />
 
       <IconImage
         iconName="3coins-icon-bg.svg"
         width={64}
         height={67}
-        className="absolute top-[346px] left-[22px]"
-      />
-      <IconImage
-        iconName="money-icon-bg.svg"
-        width={95}
-        height={121}
-        className="absolute top-[78px] left-[45%] hidden sm:block"
+        className="absolute top-[346px] left-[22px] hidden xl-custom:block"
       />
 
       <IconImage
         iconName="3coins-icon-bg.svg"
         width={81}
         height={84}
-        className="absolute top-[65px] right-[145px] hidden lg:block"
+        className="absolute top-[65px] right-[145px] hidden xl-custom:block"
       />
 
       <IconImage
         iconName="bottle-icon-bg.svg"
         width={71}
         height={93}
-        className="absolute top-[197px] right-[304px] hidden"
+        className="absolute top-[197px] right-[304px] hidden xl-custom:block"
       />
 
       <IconImage
         iconName="btc-icon-bg.svg"
         width={90}
         height={89}
-        className="absolute bottom-[86px] right-[351px]"
+        className="absolute bottom-[86px] right-[351px] hidden sm:block"
       />
 
       <LinesBackground />
@@ -107,4 +101,4 @@ const Background = ({ className }) => {
   );
 };
 
-export default Background;
+export default BlocksBg;

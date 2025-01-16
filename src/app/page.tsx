@@ -3,7 +3,7 @@ import Link from "next/link";
 import IconImage from "./ui/IconImage";
 import TriangelBox from "./ui/TriangelBox";
 import DesktopPageNavigation from "./ui/DesktopPageNavigation";
-import Background from "./ui/app/Background";
+import Background from "./ui/background/HomeBg";
 
 const homeContent = {
   header: "Turn Your Phone Into a Money Printer",
