@@ -56,13 +56,13 @@ export default function HowToStart() {
                   <span className="text-white text-base">
                     {howToStartContent.statges[0].phase}
                   </span>
-                  <span className="text-transparent text-xs min-h-[48px]"></span>
+                  <span className="text-transparent text-xs min-h-[19px]"></span>
                 </div>
                 <div className="flex flex-col gap-1 w-[70px]">
                   <span className="text-white text-base">
                     {howToStartContent.statges[1].phase}
                   </span>
-                  <span className="text-transparent text-xs min-h-[48px]"></span>
+                  <span className="text-transparent text-xs min-h-[16px]"></span>
                 </div>
                 <div className="flex flex-col gap-1 w-[70px]">
                   <span className="text-white text-base">
@@ -78,12 +78,12 @@ export default function HowToStart() {
                 </div> */}
               </div>
 
-              <div className="w-[5.5px] h-[225px] flex items-center flex-col mt-[9px]">
-                <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
-                <div className="w-[0] h-[127px] border-[0.5px] border-white"></div>
-                <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
+              <div className="w-[5.5px] h-[165px] flex items-center flex-col mt-[9px]">
+                <div className="w-[5.5px] h-[9.5px] rounded-full bg-[white]"></div>
+                <div className="w-[0] h-[136px] border-[0.5px] border-white"></div>
+                <div className="w-[5.5px] h-[9.5px] rounded-full bg-[white]"></div>
                 <div className="h-[125px] border-[0.5px] border-white"></div>
-                <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
+                <div className="w-[5.5px] h-[9.5px] rounded-full bg-[white]"></div>
                 {/* <div className="h-[105px] border-[0.5px] border-white"></div>
                 <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div> */}
               </div>
@@ -94,9 +94,9 @@ export default function HowToStart() {
                     <span className="text-[#E38539] text-xs whitespace-pre-line min-h-[46px]">
                       {item.description}
                     </span>
-                    <span className="text-[#E8B14B] text-base opacity-0">
+                    {/* <span className="text-[#E8B14B] text-base opacity-0">
                       {item.title}
-                    </span>
+                    </span> */}
                   </div>
                 ))}
               </div>

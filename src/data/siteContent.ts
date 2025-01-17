@@ -266,7 +266,7 @@ const siteContent = {
   },
 
   howToStartContent: {
-    header: "How-to-Start?",
+    header: "How to Start",
     title: "Join the $Bits Movement",
     stats: {
       ctaTitle: "Easy To Get Started",
