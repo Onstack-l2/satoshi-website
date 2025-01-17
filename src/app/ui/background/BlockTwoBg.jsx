@@ -57,7 +57,7 @@ export default function BlockTwoBg({ className }) {
   return (
     <div
       className={clsx(
-        "w-[1444px] relative h-[712px] z-0 py-[20px] mt-[44px] lg:mt-0",
+        "w-[1444px] relative h-[712px] z-0 py-[20px] mt-[44px] pointer-events-none lg:mt-0",
         className
       )}
     >

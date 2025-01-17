@@ -57,7 +57,7 @@ const FaqsBg = ({ className }) => {
   return (
     <div
       className={clsx(
-        "w-[1444px] relative h-[712px] z-0 py-[20px] mt-[44px]",
+        "w-[1444px] relative h-[712px] z-0 py-[20px] mt-[44px] pointer-events-none",
         className
       )}
     >
