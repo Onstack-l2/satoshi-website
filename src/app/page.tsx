@@ -4,7 +4,8 @@ import IconImage from "./ui/IconImage";
 import TriangelBox from "./ui/TriangelBox";
 import DesktopPageNavigation from "./ui/DesktopPageNavigation";
 import HomeBg from "./ui/background/HomeBg";
-import { homeContent } from "@/data/siteContent.json";
+import siteContent from "@/data/siteContent";
+const homeContent = siteContent.homeContent;
 
 export default function Home() {
   return (

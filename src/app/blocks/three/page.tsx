@@ -4,7 +4,9 @@ import TriangelBox from "@/app/ui/TriangelBox";
 import BlockThreeBg from "@/app/ui/background/BlockThreeBg";
 import Image from "next/image";
 import Link from "next/link";
-import { blockThreeContent } from "@/data/siteContent.json";
+import siteContent from "@/data/siteContent";
+
+const blockThreeContent = siteContent.blockThreeContent;
 
 export default function BlockThree() {
   return (

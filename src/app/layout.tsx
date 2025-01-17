@@ -4,8 +4,11 @@ import { Anonymous_Pro } from "next/font/google";
 
 import "./globals.css";
 import Header from "./ui/Header";
-import { topAlertMessage, bottomAlertMessage } from "@/data/siteContent.json";
+import siteContent from "@/data/siteContent";
 import AlertMessage from "./ui/AlertMessage";
+
+const topAlertMessage = siteContent.topAlertMessage;
+const bottomAlertMessage = siteContent.bottomAlertMessage;
 
 export const anonymousPro = Anonymous_Pro({
   weight: ["400", "700"],

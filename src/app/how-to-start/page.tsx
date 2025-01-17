@@ -3,7 +3,9 @@ import HowToStartBg from "@/app/ui/background/HowToStartBg";
 import Image from "next/image";
 import Link from "next/link";
 import DesktopPageNavigation from "../ui/DesktopPageNavigation";
-import { howToStartContent } from "@/data/siteContent.json";
+import siteContent from "@/data/siteContent";
+
+const howToStartContent = siteContent.howToStartContent;
 
 const ButtonActions = () => {
   return (

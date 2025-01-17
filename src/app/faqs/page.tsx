@@ -3,7 +3,9 @@ import FaqsBg from "@/app/ui/background/FaqsBg";
 import Image from "next/image";
 import Link from "next/link";
 import DesktopPageNavigation from "../ui/DesktopPageNavigation";
-import { faqsContent } from "@/data/siteContent.json";
+import siteContent from "@/data/siteContent";
+
+const faqsContent = siteContent.faqsContent;
 
 export default function Faqs() {
   return (

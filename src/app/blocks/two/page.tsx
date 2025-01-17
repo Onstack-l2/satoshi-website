@@ -4,7 +4,9 @@ import TriangelBox from "@/app/ui/TriangelBox";
 import BlockTwoBg from "@/app/ui/background/BlockTwoBg";
 import Image from "next/image";
 import Link from "next/link";
-import { blockTwoContent } from "@/data/siteContent.json";
+import siteContent from "@/data/siteContent";
+
+const blockTwoContent = siteContent.blockTwoContent;
 
 const PieChartBox = () => {
   return (

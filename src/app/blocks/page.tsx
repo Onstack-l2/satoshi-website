@@ -1,7 +1,9 @@
 import Link from "next/link";
 import IconImage from "../ui/IconImage";
 import BlocksBg from "../ui/background/BlocksBg";
-import { genesisBlockContent } from "@/data/siteContent.json";
+import siteContent from "@/data/siteContent";
+
+const genesisBlockContent = siteContent.genesisBlockContent;
 
 export default function GenesisBlock() {
   return (

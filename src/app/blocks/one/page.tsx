@@ -2,8 +2,10 @@ import IconImage from "@/app/ui/IconImage";
 import TriangelBox from "@/app/ui/TriangelBox";
 import BlockOneBg from "@/app/ui/background/BlockOneBg";
 import Link from "next/link";
-import { blockOneContent } from "@/data/siteContent.json";
+import siteContent from "@/data/siteContent";
 import Image from "next/image";
+
+const blockOneContent = siteContent.blockOneContent;
 
 export default function BlockOne() {
   return (
