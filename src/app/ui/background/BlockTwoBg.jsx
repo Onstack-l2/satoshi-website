@@ -12,7 +12,7 @@ const ImageLine = ({ className }) => {
 
 const LinesBackground = () => {
   return (
-    <div className="z-0 absolute bottom-0 h-fit w-full flex">
+    <div className="z-0 absolute top-0 h-fit w-full flex">
       <div className="relative w-full h-fit mt-[-5px]">
         {[1, 2, 3, 4, 5, 6].map((num, index) => {
           return (

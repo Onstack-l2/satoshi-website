@@ -116,37 +116,32 @@
       "items": [
         {
           "title": "Liquidity Pool",
-          "description": "Smooth swaps, no rugs—keeping $Bits solid and tradable.",
+          "description": "Ensuring seamless trading and ecosystem stability with high liquidity.",
           "percentage": "5%"
         },
         {
-          "title": "Development",
-          "description": "Building the world’s next big Degen game with $Bits utility.",
-          "percentage": "5%"
-        },
-        {
-          "title": "Treasury",
-          "description": "Stash for community events, epic burns, and cross-platform expansions.",
-          "percentage": "10%"
-        },
-        {
-          "title": "Mining Rewards",
-          "description": "For the grinders who tap, raid, and cooperate daily to unlock $Bits glory.",
-          "percentage": "35%"
-        },
-        {
-          "title": "Staking",
-          "description": "For the early apes who “get it.” Let’s launch fair and loud.",
-          "percentage": "10%"
-        },
-        {
-          "title": "Fair Launch",
-          "description": "For the early apes who “get it.” Let’s launch fair and loud.",
+          "title": "Ecosystem Development",
+          "description": "Funding continues development, new features, and platform expansion.",
           "percentage": "15%"
         },
         {
-          "title": "Marketing & Partnerships",
-          "description": "Fueling memes, KOLs, and legendary campaigns to go viral.",
+          "title": "Airdrop Rewards",
+          "description": "Incentivizing early supporters.",
+          "percentage": "10%"
+        },
+        {
+          "title": "Farming Rewards",
+          "description": "Incentivizing gameplay and mining activities with substantial rewards for active players.",
+          "percentage": "40%"
+        },
+        {
+          "title": "Staking Rewards",
+          "description": "Encouraging long-term holding with passive income and exclusive perks.",
+          "percentage": "10%"
+        },
+        {
+          "title": "Marketing Budget",
+          "description": "Driving community growth, player acquisition, and global outreach through campaigns.",
           "percentage": "20%"
         }
       ]
