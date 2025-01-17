@@ -9,7 +9,7 @@ import { blockTwoContent } from "@/data/siteContent.json";
 const PieChartBox = () => {
   return (
     <div className="flex overflow-x-scroll w-full md:mx-0 lg:max-w-[588px]">
-      <div className="flex h-fit w-[819px] items-center py-5">
+      <div className="flex h-fit w-[819px] items-center py-5 lg:absolute">
         <div className="flex flex-col gap-[10px] items-end text-end">
           {blockTwoContent.pieChart.items.slice(0, 3).map((item) => (
             <div className="flex flex-col gap-1 w-[232px]" key={item.title}>
