@@ -171,7 +171,7 @@
         },
         {
           "highlight": "Cross-Chain Power",
-          "description": "Strengthen liquidity across BTCFi,TON,SOl, SUI & more."
+          "description": "Strengthen liquidity across BTCFi,TON,SOL, SUI & more."
         }
       ]
     },
@@ -240,7 +240,7 @@
     "title": "Join the $Bits Movement",
     "stats": {
       "ctaTitle": "Easy To Get Started",
-      "ctaDescription": "You are just one button away to starting your satBTC journey",
+      "ctaDescription": "Step 1 : Click on the Telegram button below or search for",
       "ctaButtonLeft": {
         "text": "On Telegram",
         "link": "/how-to-start/#cta-telegram"
