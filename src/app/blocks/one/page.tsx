@@ -68,7 +68,7 @@ export default function BlockOne() {
 
           <div className="w-[573px] max-w-full text-left relative mt-auto">
             <div className="w-[573px] sm:hidden mt-6 z-10 max-w-full mb-5 ">
-              <h3 className="text-white text-xl leading-6 sm:w-[343px] max-w-full text-center relative z-10">
+              <h3 className="text-white text-xl leading-6 sm:w-[343px] max-w-full text-start relative z-10">
                 {blockOneContent.characterSpeech}
               </h3>
             </div>

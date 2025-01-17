@@ -85,7 +85,7 @@ export default function BlockDefi() {
         <div className="flex flex-1 w-full lg:mt-auto mb-[-24px] mt-10 justify-center lg:justify-start">
           <div className="h-fit w-full max-w-[502px] text-left relative flex flex-col">
             <div className="block sm:hidden w-[573px] mt-6 z-10 max-w-full mb-5">
-              <h3 className="text-white text-xl leading-6 sm:w-[343px] max-w-full text-center relative z-10">
+              <h3 className="text-white text-xl leading-6 sm:w-[343px] max-w-full text-start relative z-10">
                 {blockDefiContent.characterSpeech}
               </h3>
             </div>
