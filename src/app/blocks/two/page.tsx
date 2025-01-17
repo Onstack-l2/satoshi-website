@@ -34,7 +34,7 @@ const PieChartBox = () => {
           <span className="text-white text-base absolute top-[61px] left-[99px]">
             {blockTwoContent.pieChart.items[0].percentage}
           </span>
-          <div className="absolute top-[36px] left-[20px] w-[55px] flex items-center rotate-[14deg]">
+          <div className="absolute top-[66px] left-[20px] w-[60px] flex items-center rotate-[6deg]">
             <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
             <div className="flex-1 h-0 border-[0.5px] border-white"></div>
             <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
@@ -43,7 +43,7 @@ const PieChartBox = () => {
           <span className="text-white text-base absolute top-[123px] left-[46px]">
             {blockTwoContent.pieChart.items[1].percentage}
           </span>
-          <div className="absolute top-[115px] left-[20px] w-[15px] flex items-center">
+          <div className="absolute top-[140px] left-[20px] w-[15px] flex items-center rotate-[-15px]">
             <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
             <div className="flex-1 h-0 border-[0.5px] border-white"></div>
             <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
@@ -52,7 +52,7 @@ const PieChartBox = () => {
           <span className="text-white text-base absolute top-[193px] left-[64px]">
             {blockTwoContent.pieChart.items[2].percentage}
           </span>
-          <div className="absolute top-[185px] left-[20px] w-[27px] flex items-center">
+          <div className="absolute top-[212px] left-[20px] w-[27px] flex items-center rotate-[-14deg]">
             <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
             <div className="flex-1 h-0 border-[0.5px] border-white"></div>
             <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
@@ -61,7 +61,7 @@ const PieChartBox = () => {
           <span className="text-white text-base absolute top-[63px] right-[108px]">
             {blockTwoContent.pieChart.items[3].percentage}
           </span>
-          <div className="absolute top-[30px] right-[20px] w-[63px] flex items-center rotate-[-21deg]">
+          <div className="absolute top-[36px] right-[20px] w-[80px] flex items-center rotate-[-27deg]">
             <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
             <div className="flex-1 h-0 border-[0.5px] border-white"></div>
             <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
@@ -70,7 +70,7 @@ const PieChartBox = () => {
           <span className="text-white text-base absolute top-[121px] right-[59px]">
             {blockTwoContent.pieChart.items[4].percentage}
           </span>
-          <div className="absolute top-[106px] right-[20px] w-[27px] flex items-center rotate-[-25deg]">
+          <div className="absolute top-[114px] right-[20px] w-[27px] flex items-center rotate-[-29deg]">
             <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
             <div className="flex-1 h-0 border-[0.5px] border-white"></div>
             <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
@@ -79,7 +79,7 @@ const PieChartBox = () => {
           <span className="text-white text-base absolute top-[197px] right-[78px]">
             {blockTwoContent.pieChart.items[5].percentage}
           </span>
-          <div className="absolute top-[157px] right-[20px] w-[29px] flex items-center rotate-[-13deg]">
+          <div className="absolute top-[184px] right-[20px] w-[44px] flex items-center rotate-[-27deg]">
             <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
             <div className="flex-1 h-0 border-[0.5px] border-white"></div>
             <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
@@ -88,7 +88,7 @@ const PieChartBox = () => {
           <span className="text-white text-base absolute top-[229px] left-[131px]">
             {blockTwoContent.pieChart.items[6].percentage}
           </span>
-          <div className="absolute top-[181px] right-[20px] w-[71px] flex items-center rotate-[-16deg]">
+          <div className="absolute top-[239px] right-[20px] w-[115px] flex items-center rotate-[0deg]">
             <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
             <div className="flex-1 h-0 border-[0.5px] border-white"></div>
             <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
