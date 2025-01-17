@@ -8,7 +8,7 @@ import siteContent from "@/data/siteContent";
 
 const blockDefiContent = siteContent.blockDefiContent;
 
-export default function BlockThree() {
+export default function BlockDefi() {
   return (
     <>
       <div className="max-w-7xl w-full p-6 mx-auto z-20 flex flex-col lg:flex-row flex-1">
@@ -84,25 +84,31 @@ export default function BlockThree() {
 
         <div className="flex flex-1 w-full lg:mt-auto mb-[-24px] mt-10 justify-center lg:justify-start">
           <div className="h-fit w-full max-w-[502px] text-left relative flex flex-col">
+            <div className="block sm:hidden w-[573px] mt-6 z-10 max-w-full mb-5">
+              <h3 className="text-white text-xl leading-6 sm:w-[343px] max-w-full text-center relative z-10">
+                {blockDefiContent.characterSpeech}
+              </h3>
+            </div>
+
             <TriangelBox>
               <h5 className="text-[#E8B14B] text-base">
                 {blockDefiContent.features.title}
               </h5>
             </TriangelBox>
 
-            <div className="w-[573px] mt-6 z-10 max-w-full">
-              <h3 className="text-white text-xl leading-6 sm:w-[343px] max-w-full text-left relative z-10 w-[30%]">
+            <div className="hidden sm:block w-[573px] mt-6 z-10 max-w-full">
+              <h3 className="text-white text-xl leading-6 sm:w-[343px] max-w-full text-left relative z-10">
                 {blockDefiContent.characterSpeech}
               </h3>
             </div>
 
-            <div className="mt-[-300px] sm:mt-[-140px] w-340px sm:w-[463px] h-[446x] ml-auto">
+            <div className="relative w-340px sm:w-[463px] h-[446px] sm:ml-auto mt-[-140px]">
               <Image
                 src="/icons/character-3.svg"
                 width={463}
                 height={446}
                 alt=""
-                className="ml-auto"
+                className="absolute right-[-40px] bottom-0"
               />
             </div>
           </div>
