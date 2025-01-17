@@ -27,7 +27,7 @@ export default function BlockThree() {
                   <span className="text-white text-base">
                     {blockThreeContent.statges[0].phase}
                   </span>
-                  <span className="text-transparent text-xs min-h-[32px]"></span>
+                  <span className="text-transparent text-xs min-h-[48px]"></span>
                 </div>
                 <div className="flex flex-col gap-1 w-[70px]">
                   <span className="text-white text-base">
@@ -39,13 +39,21 @@ export default function BlockThree() {
                   <span className="text-white text-base">
                     {blockThreeContent.statges[2].phase}
                   </span>
+                  <span className="text-transparent text-xs min-h-[32px]"></span>
+                </div>
+                <div className="flex flex-col gap-1 w-[70px]">
+                  <span className="text-white text-base">
+                    {blockThreeContent.statges[3].phase}
+                  </span>
                   <span className="text-transparent text-xs min-h-[48px]"></span>
                 </div>
               </div>
 
-              <div className="w-[5.5px] h-[209px] flex items-center flex-col mt-[9px]">
+              <div className="w-[5.5px] h-[319px] flex items-center flex-col mt-[9px]">
                 <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
-                <div className="w-[0] h-[90px] border-[0.5px] border-white"></div>
+                <div className="w-[0] h-[120px] border-[0.5px] border-white"></div>
+                <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
+                <div className="h-[125px] border-[0.5px] border-white"></div>
                 <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
                 <div className="h-[105px] border-[0.5px] border-white"></div>
                 <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
