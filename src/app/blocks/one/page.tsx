@@ -4,6 +4,7 @@ import BlockOneBg from "@/app/ui/background/BlockOneBg";
 import Link from "next/link";
 import siteContent from "@/data/siteContent";
 import Image from "next/image";
+import DesktopPageNavigation from "@/app/ui/DesktopPageNavigation";
 
 const blockOneContent = siteContent.blockOneContent;
 
@@ -11,48 +12,8 @@ export default function BlockOne() {
   return (
     <>
       <div className="max-w-7xl w-full p-6 mx-auto z-20 flex items-center flex-col flex-1">
-        <div
-          className="static hidden lg:flex lg:absolute top-[50%] z-40 w-full"
-          style={{
-            transform: "translateY(-50%)",
-          }}
-        >
-          <Link href="/blocks" className="relative flex items-center">
-            <IconImage
-              iconName="play-icon.svg"
-              width={119}
-              height={119}
-              alt=""
-              className="mt-5"
-              flipHorizontal={true}
-            />
-            <IconImage
-              iconName="arrow-icon-bg.svg"
-              width={70}
-              height={80}
-              className="mb-10"
-              flipHorizontal={true}
-            />
-          </Link>
-          <Link
-            href="/blocks/two"
-            className="relative flex items-center ml-auto"
-          >
-            <IconImage
-              iconName="arrow-icon-bg.svg"
-              width={70}
-              height={80}
-              className="mb-10"
-            />
-            <IconImage
-              iconName="play-icon.svg"
-              width={119}
-              height={119}
-              alt=""
-              className="mt-5"
-            />
-          </Link>
-        </div>
+        <DesktopPageNavigation prevPath="/blocks" nextPath="/blocks/two" />
+
         <div className="flex flex-col w-[958px] max-w-full gap-[32px] h-full z-20 text-center items-center relative flex-1">
           <h2 className="text-[2rem] text-white mt-8">
             {blockOneContent.header}
@@ -106,6 +67,11 @@ export default function BlockOne() {
           </div>
 
           <div className="w-[573px] max-w-full text-left relative mt-auto">
+            <div className="w-[573px] sm:hidden mt-6 z-10 max-w-full mb-5 ">
+              <h3 className="text-white text-xl leading-6 sm:w-[343px] max-w-full text-center relative z-10">
+                {blockOneContent.characterSpeech}
+              </h3>
+            </div>
             <TriangelBox>
               <h5 className="text-[#E8B14B] text-base max-w-full">
                 {blockOneContent.features.title}
@@ -123,19 +89,19 @@ export default function BlockOne() {
               </ul>
             </TriangelBox>
 
-            <div className="w-[573px] mt-6 z-10 max-w-full">
-              <h3 className="text-white text-xl leading-6 sm:w-[343px] max-w-full text-left relative z-10 w-[30%]">
+            <div className="hidden sm:block w-[573px] mt-6 z-10 max-w-full">
+              <h3 className="text-white text-xl leading-6 sm:w-[343px] max-w-full text-left relative z-10">
                 {blockOneContent.characterSpeech}
               </h3>
             </div>
 
-            <div className="w-full overflow-hidden mb-[-24px] mt-[-298px] sm:mt-[-150px]">
+            <div className="w-full overflow-hidden mb-[-24px] mt-[0] sm:mt-[-150px] h-[365px] relative">
               <Image
                 src="/icons/character-2.svg"
                 width={400}
                 height={365}
                 alt=""
-                className="ml-auto"
+                className="ml-auto absolute bottom-0 sm:relative"
               />
             </div>
           </div>
