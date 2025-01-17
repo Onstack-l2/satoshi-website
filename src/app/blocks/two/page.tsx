@@ -25,13 +25,13 @@ const PieChartBox = () => {
               width: "120px",
               height: "120px",
               background:
-                "conic-gradient(#E3853A 0% 16.67%, #FDAB69 16.67% 33.33%, #EF9D5C 33.33% 50%, #D69860 50% 66.67%, #FDAB69 66.67% 83.33%, #D69860 83.33% 100%)",
+                "conic-gradient(#E3853A 0% 14.29%, #FDAB69 14.29% 28.57%, #EF9D5C 28.57% 42.86%, #D69860 42.86% 57.14%, #FDAB69 57.14% 71.43%, #D69860 71.43% 85.71%, #EF9D5C 85.71% 100%)",
               borderRadius: "50%",
               position: "relative",
             }}
-            className="mt-[62px] mr-[19px]"
+            className="mt-[96px] mr-[19px]"
           ></div>
-          <span className="text-white text-base absolute top-[39px] left-[91px]">
+          <span className="text-white text-base absolute top-[61px] left-[99px]">
             {blockTwoContent.pieChart.items[0].percentage}
           </span>
           <div className="absolute top-[36px] left-[20px] w-[55px] flex items-center rotate-[14deg]">
@@ -40,7 +40,7 @@ const PieChartBox = () => {
             <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
           </div>
 
-          <span className="text-white text-base absolute top-[105px] left-[46px]">
+          <span className="text-white text-base absolute top-[123px] left-[46px]">
             {blockTwoContent.pieChart.items[1].percentage}
           </span>
           <div className="absolute top-[115px] left-[20px] w-[15px] flex items-center">
@@ -49,7 +49,7 @@ const PieChartBox = () => {
             <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
           </div>
 
-          <span className="text-white text-base absolute top-[175px] left-[67px]">
+          <span className="text-white text-base absolute top-[193px] left-[64px]">
             {blockTwoContent.pieChart.items[2].percentage}
           </span>
           <div className="absolute top-[185px] left-[20px] w-[27px] flex items-center">
@@ -58,7 +58,7 @@ const PieChartBox = () => {
             <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
           </div>
 
-          <span className="text-white text-base absolute top-[37px] right-[99px]">
+          <span className="text-white text-base absolute top-[63px] right-[108px]">
             {blockTwoContent.pieChart.items[3].percentage}
           </span>
           <div className="absolute top-[30px] right-[20px] w-[63px] flex items-center rotate-[-21deg]">
@@ -67,7 +67,7 @@ const PieChartBox = () => {
             <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
           </div>
 
-          <span className="text-white text-base absolute top-[110px] right-[59px]">
+          <span className="text-white text-base absolute top-[121px] right-[59px]">
             {blockTwoContent.pieChart.items[4].percentage}
           </span>
           <div className="absolute top-[106px] right-[20px] w-[27px] flex items-center rotate-[-25deg]">
@@ -76,17 +76,17 @@ const PieChartBox = () => {
             <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
           </div>
 
-          {/* <span className="text-white text-base absolute top-[152px] right-[69px]">
+          <span className="text-white text-base absolute top-[197px] right-[78px]">
             {blockTwoContent.pieChart.items[5].percentage}
           </span>
           <div className="absolute top-[157px] right-[20px] w-[29px] flex items-center rotate-[-13deg]">
             <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
             <div className="flex-1 h-0 border-[0.5px] border-white"></div>
             <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
-          </div> */}
+          </div>
 
-          <span className="text-white text-base absolute top-[186px] left-[180px]">
-            {blockTwoContent.pieChart.items[5].percentage}
+          <span className="text-white text-base absolute top-[229px] left-[131px]">
+            {blockTwoContent.pieChart.items[6].percentage}
           </span>
           <div className="absolute top-[181px] right-[20px] w-[71px] flex items-center rotate-[-16deg]">
             <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>

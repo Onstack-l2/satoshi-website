@@ -105,13 +105,18 @@ export default function BlockOne() {
 
           <div className="w-[573px] max-w-full text-left relative mt-auto">
             <TriangelBox>
-              <h5 className="text-[#E8B14B] text-base">
-                {blockOneContent.description}
+              <h5 className="text-[#E8B14B] text-base max-w-full">
+                {blockOneContent.features.title}
               </h5>
-
               <ul className="text-white text-xs">
-                {blockOneContent.listItems.map((item, index) => (
-                  <li key={index}>• {item}</li>
+                {blockOneContent.features.list.map((feature, index) => (
+                  <li key={index}>
+                    <span className="text-[#E8B14B]">
+                      {" "}
+                      • {feature.highlight}
+                    </span>{" "}
+                    {feature.description}
+                  </li>
                 ))}
               </ul>
             </TriangelBox>

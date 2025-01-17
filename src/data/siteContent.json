@@ -64,8 +64,8 @@
       "title": "It's like a cheat code for your wallet:",
       "list": [
         {
-          "highlight": "Tap to Farm:",
-          "description": "Farm Bits just by playing."
+          "highlight": "Farm Bits:",
+          "description": "Rack up Bits like is a cheat code; we don’t joke."
         },
         {
           "highlight": "DeFi Made Fun:",
@@ -98,13 +98,20 @@
     "header": "Block One",
     "title": "Why Satoshi Miner?",
     "subtitle": "Because Crypto Should Be Fun, Not Stressful",
-    "description": "Forget the anxiety of trading; we’ve cracked the code to make DeFi entertaining:",
-    "listItems": [
-      "Tap, Earn, Repeat: Simplified mining that anyone can play.",
-      "BTCFi Meets TON: Bridging the Bitcoin ethos with Telegram’s largest blockchain.",
-      "DeFi Gamified: Stake, farm, and grow your portfolio—all in a game"
-    ],
-    "characterSpeech": "You bring the vibes; we’ll bring the gains. It’s time to level up your crypto game."
+    "features": {
+      "title": "Forget trading FOMO—we hacked DeFi to make it a vibe:",
+      "list": [
+        {
+          "highlight": "Earn, Chill, Repeat",
+          "description": "Farming so simple, your dog could do it. 🐕"
+        },
+        {
+          "highlight": "DeFi Game On",
+          "description": "Stake, ape, and grow your bag—all while vibing in a game. 🎮💸"
+        }
+      ]
+    },
+    "characterSpeech": "You bring the phone; we’ll bring the gains. Level up your crypto grind today. 🚀"
   },
 
   "blockTwoContent": {
@@ -122,27 +129,32 @@
         {
           "title": "Ecosystem Development",
           "description": "Funding continues development, new features, and platform expansion.",
-          "percentage": "15%"
+          "percentage": "12%"
         },
         {
-          "title": "Airdrop Rewards",
+          "title": "Airdrop",
           "description": "Incentivizing early supporters.",
           "percentage": "10%"
         },
         {
-          "title": "Farming Rewards",
+          "title": "Farming Bits",
           "description": "Incentivizing gameplay and mining activities with substantial rewards for active players.",
           "percentage": "40%"
         },
         {
-          "title": "Staking Rewards",
+          "title": "Staking",
           "description": "Encouraging long-term holding with passive income and exclusive perks.",
           "percentage": "10%"
         },
         {
-          "title": "Marketing Budget",
+          "title": "Team",
+          "description": "Reward devs, advisors and core team members for their contributions",
+          "percentage": "8%"
+        },
+        {
+          "title": "Marketing & Growth",
           "description": "Driving community growth, player acquisition, and global outreach through campaigns.",
-          "percentage": "20%"
+          "percentage": "15%"
         }
       ]
     },
