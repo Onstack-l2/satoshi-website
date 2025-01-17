@@ -261,9 +261,9 @@ export default function Header() {
             Staking
           </Link> */}
         </div>
-        <div className="hidden lg:flex lg:justify-end">
+        {/* <div className="hidden lg:flex lg:justify-end">
           <ButtonActions className="w-full" />
-        </div>
+        </div> */}
       </nav>
       {/* <!-- Mobile menu, show/hide based on menu open state. --> */}
       <div
