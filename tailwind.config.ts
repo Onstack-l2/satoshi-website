@@ -16,15 +16,15 @@ export default {
         foreground: "var(--foreground)",
       },
       animation: {
-        "scroll-left": "scroll-left 50s linear infinite",
+        "scroll-right": "scroll-right 50s linear infinite",
       },
       keyframes: {
-        "scroll-left": {
+        "scroll-right": {
           "0%": {
             transform: "translateX(0%)",
           },
           "100%": {
-            transform: "translateX(-100%)",
+            transform: "translateX(100%)",
           },
         },
       },
