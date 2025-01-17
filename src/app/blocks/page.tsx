@@ -18,7 +18,7 @@ export default function GenesisBlock() {
             {genesisBlockContent.description.map((item, index) => (
               <h2
                 key={index}
-                className={`text-xl leading-6 ${item.color === "white" ? "text-white" : "text-[#E38539]"} mt-4`}
+                className={`text-xl leading-6 whitespace-pre-line ${item.color === "white" ? "text-white" : "text-[#E38539]"} mt-4`}
               >
                 {item.text}
               </h2>

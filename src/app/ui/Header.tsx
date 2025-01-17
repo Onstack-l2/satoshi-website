@@ -253,14 +253,14 @@ export default function Header() {
           >
             Faqs
           </Link>
-          <Link
+          {/* <Link
             href="/staking"
             className={clsx("text-sm/6 font-semibold text-[#888F97]", {
               "text-[#E8B14B] underline": pathname === "/staking",
             })}
           >
             Staking
-          </Link>
+          </Link> */}
         </div>
         <div className="hidden lg:flex lg:justify-end">
           <ButtonActions className="w-full" />
@@ -445,7 +445,7 @@ export default function Header() {
                 >
                   Faqs
                 </Link>
-                <Link
+                {/* <Link
                   href="/staking"
                   className={clsx(
                     "-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-[#888F97]",
@@ -455,7 +455,7 @@ export default function Header() {
                 >
                   Staking
                 </Link>
-                <ButtonActions />
+                <ButtonActions /> */}
               </div>
             </div>
           </div>

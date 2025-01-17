@@ -9,7 +9,10 @@ export default function Faqs() {
   return (
     <>
       <div className="max-w-7xl w-full p-6 mx-auto z-20 flex items-center flex-col flex-1 lg:flex-row">
-        <DesktopPageNavigation prevPath="/how-to-start" nextPath="/staking" />
+        <DesktopPageNavigation
+          prevPath="/how-to-start"
+          isLastPage={true} /* nextPath="/staking" */
+        />
 
         <div className="flex flex-1 w-full">
           <div className="flex flex-col w-full gap-[32px] z-20 text-center lg:text-start items-center lg:items-start">
@@ -64,7 +67,7 @@ export default function Faqs() {
               flipHorizontal={true}
             />
           </Link>
-          <Link
+          {/* <Link
             href="/staking"
             className="relative flex items-center ml-auto mr-[-5px] sm:mr-6"
           >
@@ -81,7 +84,7 @@ export default function Faqs() {
               alt=""
               className="mt-5"
             />
-          </Link>
+          </Link> */}
         </div>
 
         <div className="flex flex-1 w-full mt-auto mb-[-24px] justify-center">

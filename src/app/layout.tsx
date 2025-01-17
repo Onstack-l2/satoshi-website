@@ -13,7 +13,8 @@ export const anonymousPro = Anonymous_Pro({
 });
 
 export const metadata: Metadata = {
-  title: "Satoshi Miner",
+  title:
+    "Satoshi Miner: Farm Bits Tokens | earn Yields and Stake your way to crypto glory all from your phone",
   description: "Satoshi Miner",
 };
 
