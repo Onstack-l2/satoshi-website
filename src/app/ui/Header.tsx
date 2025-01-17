@@ -122,7 +122,7 @@ export default function Header() {
           <Link
             href="/"
             className={clsx("text-sm/6 font-semibold text-[#888F97]", {
-              "text-[#E8B14B] underline": pathname === "/",
+              "text-[#E8B14B]": pathname === "/",
             })}
           >
             Home
@@ -133,7 +133,7 @@ export default function Header() {
               className={clsx(
                 "flex items-center gap-x-1 text-sm/6 font-semibold text-[#888F97]",
                 {
-                  "text-[#E8B14B] underline": pathname.includes("/blocks"),
+                  "text-[#E8B14B]": pathname.includes("/blocks"),
                 }
               )}
               aria-expanded={false}
@@ -172,7 +172,7 @@ export default function Header() {
                     <Link
                       href="/blocks"
                       className={clsx("block font-semibold text-[#888F97]", {
-                        "text-[#E8B14B] underline": pathname === "/blocks",
+                        "text-[#E8B14B]": pathname === "/blocks",
                       })}
                     >
                       Genesis Block
@@ -185,7 +185,7 @@ export default function Header() {
                     <Link
                       href="/blocks/one"
                       className={clsx("block font-semibold text-[#888F97]", {
-                        "text-[#E8B14B] underline": pathname === "/blocks/one",
+                        "text-[#E8B14B]": pathname === "/blocks/one",
                       })}
                     >
                       Block One
@@ -198,7 +198,7 @@ export default function Header() {
                     <Link
                       href="/blocks/two"
                       className={clsx("block font-semibold text-[#888F97]", {
-                        "text-[#E8B14B] underline": pathname === "/blocks/two",
+                        "text-[#E8B14B]": pathname === "/blocks/two",
                       })}
                     >
                       Block Two
@@ -211,8 +211,7 @@ export default function Header() {
                     <Link
                       href="/blocks/three"
                       className={clsx("block font-semibold text-[#888F97]", {
-                        "text-[#E8B14B] underline":
-                          pathname === "/blocks/three",
+                        "text-[#E8B14B]": pathname === "/blocks/three",
                       })}
                     >
                       Block Three
@@ -225,7 +224,7 @@ export default function Header() {
                     <Link
                       href="/blocks/defi"
                       className={clsx("block font-semibold text-[#888F97]", {
-                        "text-[#E8B14B] underline": pathname === "/blocks/defi",
+                        "text-[#E8B14B]": pathname === "/blocks/defi",
                       })}
                     >
                       Defi
@@ -240,7 +239,7 @@ export default function Header() {
           <Link
             href="/how-to-start"
             className={clsx("text-sm/6 font-semibold text-[#888F97]", {
-              "text-[#E8B14B] underline": pathname === "/how-to-start",
+              "text-[#E8B14B]": pathname === "/how-to-start",
             })}
           >
             How to start
@@ -248,7 +247,7 @@ export default function Header() {
           <Link
             href="/faqs"
             className={clsx("text-sm/6 font-semibold text-[#888F97]", {
-              "text-[#E8B14B] underline": pathname === "/faqs",
+              "text-[#E8B14B]": pathname === "/faqs",
             })}
           >
             Faqs
@@ -256,7 +255,7 @@ export default function Header() {
           {/* <Link
             href="/staking"
             className={clsx("text-sm/6 font-semibold text-[#888F97]", {
-              "text-[#E8B14B] underline": pathname === "/staking",
+              "text-[#E8B14B]": pathname === "/staking",
             })}
           >
             Staking
@@ -310,7 +309,7 @@ export default function Header() {
                   href="/"
                   className={clsx(
                     "-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-[#888F97] ",
-                    { "text-[#E8B14B] underline": pathname === "/" }
+                    { "text-[#E8B14B]": pathname === "/" }
                   )}
                   onClick={onCloseMenu}
                 >
@@ -322,8 +321,7 @@ export default function Header() {
                     className={clsx(
                       "flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base/7 font-semibold text-[#888F97]",
                       {
-                        "text-[#E8B14B] underline":
-                          pathname.includes("/blocks"),
+                        "text-[#E8B14B]": pathname.includes("/blocks"),
                       }
                     )}
                     aria-controls="disclosure-1"
@@ -365,7 +363,7 @@ export default function Header() {
                       href="/blocks"
                       className={clsx(
                         "block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-[#888F97] ",
-                        { "text-[#E8B14B] underline": pathname === "/blocks" }
+                        { "text-[#E8B14B]": pathname === "/blocks" }
                       )}
                       onClick={onCloseMenu}
                     >
@@ -376,8 +374,7 @@ export default function Header() {
                       className={clsx(
                         "block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-[#888F97] ",
                         {
-                          "text-[#E8B14B] underline":
-                            pathname === "/blocks/one",
+                          "text-[#E8B14B]": pathname === "/blocks/one",
                         }
                       )}
                       onClick={onCloseMenu}
@@ -389,8 +386,7 @@ export default function Header() {
                       className={clsx(
                         "block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-[#888F97] ",
                         {
-                          "text-[#E8B14B] underline":
-                            pathname === "/blocks/two",
+                          "text-[#E8B14B]": pathname === "/blocks/two",
                         }
                       )}
                       onClick={onCloseMenu}
@@ -402,8 +398,7 @@ export default function Header() {
                       className={clsx(
                         "block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-[#888F97] ",
                         {
-                          "text-[#E8B14B] underline":
-                            pathname === "/blocks/three",
+                          "text-[#E8B14B]": pathname === "/blocks/three",
                         }
                       )}
                       onClick={onCloseMenu}
@@ -415,8 +410,7 @@ export default function Header() {
                       className={clsx(
                         "block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-[#888F97] ",
                         {
-                          "text-[#E8B14B] underline":
-                            pathname === "/blocks/defi",
+                          "text-[#E8B14B]": pathname === "/blocks/defi",
                         }
                       )}
                       onClick={onCloseMenu}
@@ -429,7 +423,7 @@ export default function Header() {
                   href="/how-to-start"
                   className={clsx(
                     "-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-[#888F97] ",
-                    { "text-[#E8B14B] underline": pathname === "/how-to-start" }
+                    { "text-[#E8B14B]": pathname === "/how-to-start" }
                   )}
                   onClick={onCloseMenu}
                 >
@@ -439,7 +433,7 @@ export default function Header() {
                   href="/faqs"
                   className={clsx(
                     "-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-[#888F97] ",
-                    { "text-[#E8B14B] underline": pathname === "/faqs" }
+                    { "text-[#E8B14B]": pathname === "/faqs" }
                   )}
                   onClick={onCloseMenu}
                 >
@@ -449,7 +443,7 @@ export default function Header() {
                   href="/staking"
                   className={clsx(
                     "-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-[#888F97]",
-                    { "text-[#E8B14B] underline": pathname === "/staking" }
+                    { "text-[#E8B14B]": pathname === "/staking" }
                   )}
                   onClick={onCloseMenu}
                 >
