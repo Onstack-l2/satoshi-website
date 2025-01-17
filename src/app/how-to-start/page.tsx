@@ -43,9 +43,61 @@ export default function HowToStart() {
               <h2 className="text-[#E38539] text-xl leading-6">
                 {howToStartContent.stats.ctaTitle}
               </h2>
-              <span className="text-[#E38539] text-xs">
+              {/* <span className="text-[#E38539] text-xs">
                 {howToStartContent.stats.ctaDescription}
-              </span>
+              </span> */}
+            </div>
+
+            <div className="flex gap-[26px]">
+              <div className="flex flex-col gap-[34px] items-start text-end w-[70px]">
+                <div className="flex flex-col gap-1 w-[70px]">
+                  <span className="text-white text-base">
+                    {howToStartContent.statges[0].phase}
+                  </span>
+                  <span className="text-transparent text-xs min-h-[48px]"></span>
+                </div>
+                <div className="flex flex-col gap-1 w-[70px]">
+                  <span className="text-white text-base">
+                    {howToStartContent.statges[1].phase}
+                  </span>
+                  <span className="text-transparent text-xs min-h-[48px]"></span>
+                </div>
+                <div className="flex flex-col gap-1 w-[70px]">
+                  <span className="text-white text-base">
+                    {howToStartContent.statges[2].phase}
+                  </span>
+                  <span className="text-transparent text-xs min-h-[32px]"></span>
+                </div>
+                {/* <div className="flex flex-col gap-1 w-[70px]">
+                  <span className="text-white text-base">
+                    {howToStartContent.statges[3].phase}
+                  </span>
+                  <span className="text-transparent text-xs min-h-[48px]"></span>
+                </div> */}
+              </div>
+
+              <div className="w-[5.5px] h-[225px] flex items-center flex-col mt-[9px]">
+                <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
+                <div className="w-[0] h-[127px] border-[0.5px] border-white"></div>
+                <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
+                <div className="h-[125px] border-[0.5px] border-white"></div>
+                <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div>
+                {/* <div className="h-[105px] border-[0.5px] border-white"></div>
+                <div className="w-[5.5px] h-[5.5px] rounded-full bg-[white]"></div> */}
+              </div>
+
+              <div className="flex flex-col gap-[34px] items-start text-start sm:w-[255px]">
+                {howToStartContent.statges.map((item, index) => (
+                  <div className="flex flex-col gap-1 sm:w-[255px]" key={index}>
+                    <span className="text-[#E38539] text-xs whitespace-pre-line min-h-[46px]">
+                      {item.description}
+                    </span>
+                    <span className="text-[#E8B14B] text-base opacity-0">
+                      {item.title}
+                    </span>
+                  </div>
+                ))}
+              </div>
             </div>
 
             <ButtonActions />

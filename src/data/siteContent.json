@@ -249,7 +249,24 @@
         "text": "In Browser (coming soon)",
         "link": "/how-to-start/#cta-in-browser"
       }
-    }
+    },
+    "statges": [
+      {
+        "title": "Step 1",
+        "description": "Click the Telegram button below or search for @SatoshiMiner_Hq_Bot on Telegram to start.",
+        "phase": "Step 1"
+      },
+      {
+        "title": "Step 2",
+        "description": "Open the app, connect your wallet, and start farming your Bits instantly.",
+        "phase": "Step 2"
+      },
+      {
+        "title": "Step 3",
+        "description": "That’s it! You’re all set to rock your farming journey and earn rewards. Let the fun and farming begin!",
+        "phase": "Step 3"
+      }
+    ]
   },
 
   "faqsContent": {
