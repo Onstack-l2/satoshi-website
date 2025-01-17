@@ -179,7 +179,7 @@ export default function BlockTwo() {
               {blockTwoContent.characterSpeech}
             </h3>
           </div>
-          <div className="relative h-fit w-[400px] sm:w-[573px] max-w-full text-left flex-col flex mt-6">
+          <div className="relative h-fit w-[400px] sm:w-[573px] max-w-full text-left flex-col flex mt-6 z-10">
             <TriangelBox>
               <h5 className="text-[#E8B14B] text-base max-w-full">
                 {blockTwoContent.features.title}
