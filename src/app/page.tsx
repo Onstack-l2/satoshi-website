@@ -36,9 +36,10 @@ export default function Home() {
                 <h2 className="text-[#E8B14B] text-xl w-[346px] max-w-full">
                   {homeContent.stats.players}
                 </h2>
-                <Link
+                <a
                   className="px-[40px] py-[8px] bg-[#E8B14B] text-[#112030] text-xl rounded-md flex items-center justify-center gap-3 w-[337px] max-w-full"
-                  href="#join-satoshi-miner"
+                  href={homeContent.stats.ctaButtonLink}
+                  target="_blank"
                 >
                   <span>{homeContent.stats.ctaButton}</span>
                   <IconImage
@@ -47,7 +48,7 @@ export default function Home() {
                     height={48}
                     alt=""
                   />
-                </Link>
+                </a>
                 <h3 className="text-white text-xl w-[462px] max-w-full">
                   {homeContent.stats.ctaDescription}
                 </h3>

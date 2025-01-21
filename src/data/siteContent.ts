@@ -68,6 +68,7 @@ const siteContent = {
     stats: {
       players: "Join 3M+ players mining their way to $50M TVL.",
       ctaButton: "JOIN SATOSHI MINER",
+      ctaButtonLink: "https://t.me/satoshiMiner_Hq_Bot",
       ctaDescription: "Why work hard when you can play smart?",
     },
     features: {
