@@ -92,7 +92,17 @@ export default function HowToStart() {
                 {howToStartContent.statges.map((item, index) => (
                   <div className="flex flex-col gap-1 sm:w-[255px]" key={index}>
                     <span className="text-[#E38539] text-xs whitespace-pre-line min-h-[46px]">
-                      {item.description}
+                      {item.title === "Step 1" ? (
+                        <>
+                          Click the Telegram button below or search for{" "}
+                          <a href="https://t.me/satoshiMiner_Hq_Bot ">
+                            @SatoshiMiner_Hq_Bot
+                          </a>{" "}
+                          on Telegram to start.
+                        </>
+                      ) : (
+                        item.description
+                      )}
                     </span>
                     {/* <span className="text-[#E8B14B] text-base opacity-0">
                       {item.title}
