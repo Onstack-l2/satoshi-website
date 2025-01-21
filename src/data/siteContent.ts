@@ -156,13 +156,13 @@ const siteContent = {
           title: "Farming Bits",
           description:
             "Incentivizing gameplay and mining activities with substantial rewards for active players.",
-          percentage: "40%",
+          percentage: "25%",
         },
         {
           title: "Staking",
           description:
             "Encouraging long-term holding with passive income and exclusive perks.",
-          percentage: "10%",
+          percentage: "25%",
         },
         {
           title: "Team",
