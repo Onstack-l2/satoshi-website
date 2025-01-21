@@ -74,8 +74,8 @@ const siteContent = {
       title: "It's like a cheat code for your wallet:",
       list: [
         {
-          highlight: "Farm Bits:",
-          description: "Rack up Bits like is a cheat code; we don’t joke.",
+          highlight: "Farm satBTC:",
+          description: "Rack up satBTC like is a cheat code; we don’t joke.",
         },
         {
           highlight: "DeFi Made Fun:",
@@ -153,7 +153,7 @@ const siteContent = {
           percentage: "10%",
         },
         {
-          title: "Farming Bits",
+          title: "Farming satBTC",
           description:
             "Incentivizing gameplay and mining activities with substantial rewards for active players.",
           percentage: "25%",
@@ -227,7 +227,7 @@ const siteContent = {
       },
       {
         title: "Token Launch",
-        description: "List Bits tokens on major exchanges and Dexes",
+        description: "List satBTC tokens on major exchanges and Dexes",
         phase: "Phase 4",
       },
     ],
@@ -291,7 +291,7 @@ const siteContent = {
       {
         title: "Step 2",
         description:
-          "Open the app, connect your wallet, and start farming your Bits instantly.",
+          "Open the app, connect your wallet, and start farming your satBTC instantly.",
         phase: "Step 2",
       },
       {
@@ -313,9 +313,9 @@ const siteContent = {
           "A gamified DeFi platform being build with SUI, TON and SOL blockchain power.",
       },
       {
-        question: "How do I earn Bits?",
+        question: "How do I earn satBTC?",
         answer:
-          "Bits farming, liquidity farming, staking, and collaborating through cooperations can earn you more $satBTC.",
+          "satBTC farming, liquidity farming, staking, and collaborating through cooperations can earn you more $satBTC.",
       },
       {
         question: "Is this really DeFi?",
