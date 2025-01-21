@@ -5,8 +5,8 @@ const siteContent = {
       link: "/#cta-whitepaper",
     },
     ctaButtonRight: {
-      text: "Buy $Bits",
-      link: "/#cta-buy-$Bits",
+      text: "Buy $satBTC",
+      link: "/#cta-buy-$satBTC",
     },
   },
   topAlertMessage: {
@@ -129,10 +129,10 @@ const siteContent = {
 
   blockTwoContent: {
     header: "Block Two",
-    title: "Tokenomics—Powered by $Bits",
+    title: "Tokenomics—Powered by $satBTC",
     subtitle: "Where GameFi Meets DeFi",
     description:
-      "At the core of Satoshi Miner is $Bits, our token driving by you The Community!",
+      "At the core of Satoshi Miner is $satBTC, our token driving by you The Community!",
     pieChart: {
       items: [
         {
@@ -179,7 +179,7 @@ const siteContent = {
       ],
     },
     features: {
-      title: "Why $Bits?",
+      title: "Why $satBTC?",
       list: [
         {
           highlight: "Governance",
@@ -187,7 +187,7 @@ const siteContent = {
         },
         {
           highlight: "Rewards",
-          description: "Earn $Bits through gaming, staking, farming and more",
+          description: "Earn $satBTC through gaming, staking, farming and more",
         },
         {
           highlight: "Cross-Chain Power",
@@ -197,7 +197,7 @@ const siteContent = {
       ],
     },
     characterSpeech:
-      "$Bits isn’t just a token; it’s your ticket to the BTCFi revolution.",
+      "$satBTC isn’t just a token; it’s your ticket to the DeFi revolution.",
   },
 
   blockThreeContent: {
@@ -245,7 +245,7 @@ const siteContent = {
     defiItems: [
       {
         title: "Staking",
-        description: "Lock up your $Bits and watch your portfolio grow.",
+        description: "Lock up your $satBTC and watch your portfolio grow.",
       },
       {
         title: "Yield Farming",
@@ -267,7 +267,7 @@ const siteContent = {
 
   howToStartContent: {
     header: "How to Start",
-    title: "Join the $Bits Movement",
+    title: "Join the $satBTC Movement",
     stats: {
       ctaTitle: "Easy To Get Started",
       ctaDescription:
@@ -315,7 +315,7 @@ const siteContent = {
       {
         question: "How do I earn Bits?",
         answer:
-          "Bits farming, liquidity farming, staking, and collaborating through cooperations can earn you more $Bits.",
+          "Bits farming, liquidity farming, staking, and collaborating through cooperations can earn you more $satBTC.",
       },
       {
         question: "Is this really DeFi?",
