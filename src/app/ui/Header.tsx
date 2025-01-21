@@ -11,18 +11,20 @@ import Link from "next/link";
 // const ButtonActions = ({ className }: { className?: string }) => {
 //   return (
 //     <div className={clsx("flex gap-[10px] h-[40px]", className)}>
-//       <Link
+//       <a
 //         className="px-[20px] py-[9px] bg-[#E8B14B] text-[#112030] rounded-md"
 //         href={headerButtons.ctaButtonLeft.link}
+//         target="_blank"
 //       >
 //         {headerButtons.ctaButtonLeft.text}
-//       </Link>
-//       <Link
+//       </a>
+//       <a
 //         className="px-[20px] py-[9px] bg-transparent  border border-1 border-[#E8B14B] rounded-md text-[#E8B14B]"
 //         href={headerButtons.ctaButtonRight.link}
+//         target="_blank"
 //       >
 //         {headerButtons.ctaButtonRight.text}
-//       </Link>
+//       </a>
 //     </div>
 //   );
 // };

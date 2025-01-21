@@ -13,12 +13,14 @@ const ButtonActions = () => {
       <a
         className="px-[20px] py-[9px] bg-[#E8B14B] text-[#112030] rounded-md whitespace-nowrap text-center"
         href={howToStartContent.stats.ctaButtonLeft.link}
+        target="_blank"
       >
         {howToStartContent.stats.ctaButtonLeft.text}
       </a>
       <a
         className="px-[20px] py-[9px] bg-transparent  border border-1 border-[#E8B14B] rounded-md text-[#E8B14B] whitespace-nowrap text-center"
         href={howToStartContent.stats.ctaButtonRight.link}
+        target="_blank"
       >
         {howToStartContent.stats.ctaButtonRight.text}
       </a>
@@ -95,7 +97,10 @@ export default function HowToStart() {
                       {item.title === "Step 1" ? (
                         <>
                           Click the Telegram button below or search for{" "}
-                          <a href="https://t.me/satoshiMiner_Hq_Bot ">
+                          <a
+                            href="https://t.me/satoshiMiner_Hq_Bot "
+                            target="_blank"
+                          >
                             @SatoshiMiner_Hq_Bot
                           </a>{" "}
                           on Telegram to start.
