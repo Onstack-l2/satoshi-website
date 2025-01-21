@@ -274,7 +274,7 @@ const siteContent = {
         "Step 1 : Click on the Telegram button below or search for",
       ctaButtonLeft: {
         text: "On Telegram",
-        link: "/how-to-start/#cta-telegram",
+        link: "https://t.me/satoshiMiner_Hq_Bot",
       },
       ctaButtonRight: {
         text: "In Browser (coming soon)",
