@@ -2,7 +2,7 @@ const siteContent = {
   headerButtons: {
     ctaButtonLeft: {
       text: "Whitepaper",
-      link: "/#cta-whitepaper",
+      link: "https://whitepaper.satoshiminer.io/",
     },
     ctaButtonRight: {
       text: "Buy $satBTC",

@@ -5,29 +5,29 @@ import { useEffect, useRef, useState } from "react";
 import IconImage from "./IconImage";
 import clsx from "clsx";
 import Link from "next/link";
-// import siteContent from "@/data/siteContent";
-// const headerButtons = siteContent.headerButtons;
+import siteContent from "@/data/siteContent";
+const headerButtons = siteContent.headerButtons;
 
-// const ButtonActions = ({ className }: { className?: string }) => {
-//   return (
-//     <div className={clsx("flex gap-[10px] h-[40px]", className)}>
-//       <a
-//         className="px-[20px] py-[9px] bg-[#E8B14B] text-[#112030] rounded-md"
-//         href={headerButtons.ctaButtonLeft.link}
-//         target="_blank"
-//       >
-//         {headerButtons.ctaButtonLeft.text}
-//       </a>
-//       <a
-//         className="px-[20px] py-[9px] bg-transparent  border border-1 border-[#E8B14B] rounded-md text-[#E8B14B]"
-//         href={headerButtons.ctaButtonRight.link}
-//         target="_blank"
-//       >
-//         {headerButtons.ctaButtonRight.text}
-//       </a>
-//     </div>
-//   );
-// };
+const ButtonActions = ({ className }: { className?: string }) => {
+  return (
+    <div className={clsx("flex gap-[10px] h-[40px]", className)}>
+      <a
+        className="px-[20px] py-[9px] bg-[#E8B14B] text-[#112030] rounded-md"
+        href={headerButtons.ctaButtonLeft.link}
+        target="_blank"
+      >
+        {headerButtons.ctaButtonLeft.text}
+      </a>
+      {/* <a
+        className="px-[20px] py-[9px] bg-transparent  border border-1 border-[#E8B14B] rounded-md text-[#E8B14B]"
+        href={headerButtons.ctaButtonRight.link}
+        target="_blank"
+      >
+        {headerButtons.ctaButtonRight.text}
+      </a> */}
+    </div>
+  );
+};
 
 const Logo = () => {
   return (
@@ -264,9 +264,9 @@ export default function Header() {
             Staking
           </Link> */}
         </div>
-        {/* <div className="hidden lg:flex lg:justify-end">
+        <div className="hidden lg:flex lg:justify-end">
           <ButtonActions className="w-full" />
-        </div> */}
+        </div>
       </nav>
       {/* <!-- Mobile menu, show/hide based on menu open state. --> */}
       <div
@@ -452,7 +452,8 @@ export default function Header() {
                 >
                   Staking
                 </Link>
-                <ButtonActions /> */}
+                 */}
+                <ButtonActions />
               </div>
             </div>
           </div>
