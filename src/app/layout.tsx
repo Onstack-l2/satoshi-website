@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "Satoshi Miner: Farm Bits Tokens",
     images: [
       {
-        url: "https://satoshi-website.vercel.app/images/logo.png", // Must be an absolute URL
+        url: "https://satoshiminer.io/images/logo.png", // Must be an absolute URL
         width: 800,
         height: 600,
       },
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     siteId: "1545263305027092480",
     // creator: "@nextjs",
     // creatorId: "1467726470533754880",
-    images: ["https://satoshi-website.vercel.app/images/logo.png"], // Must be an absolute URL
+    images: ["https://satoshiminer.io/images/logo.png"], // Must be an absolute URL
   },
 };
 
