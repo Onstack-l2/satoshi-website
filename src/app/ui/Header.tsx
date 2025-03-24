@@ -32,8 +32,8 @@ const ButtonActions = ({ className }: { className?: string }) => {
 const Logo = () => {
   return (
     <Link href="/" className="flex gap-[8.61px] items-center">
-      <IconImage iconName="logo-img.svg" width={38.72} height={38.72} alt="" />
-      <div className="flex flex-col gap-[2.81px] justify-start">
+      <IconImage iconName="logo-img.png" width={174} height={61} alt="" />
+      {/* <div className="flex flex-col gap-[2.81px] justify-start">
         <IconImage
           iconName="logo-text-satoshi.svg"
           width={80.67}
@@ -44,7 +44,7 @@ const Logo = () => {
           width={61.53}
           height={10.54}
         />
-      </div>
+      </div> */}
     </Link>
   );
 };
