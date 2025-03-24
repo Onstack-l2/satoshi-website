@@ -64,10 +64,10 @@ const siteContent = {
     subHeader:
       "Why stress over charts when you can farm, ape-in, and stake your way to crypto glory all from your phone?",
     description:
-      "Satoshi Miner transforms casual gaming into DeFi, blending the thrill of farming with the power of gaming.",
+      "Satoshi Network transforms casual gaming into DeFi, blending the thrill of farming with the power of gaming.",
     stats: {
       players: "Join 3M+ players mining their way to $50M TVL.",
-      ctaButton: "JOIN SATOSHI MINER",
+      ctaButton: "JOIN SATOSHI NETWORK",
       ctaButtonLink: "https://t.me/satoshiMiner_Hq_Bot",
       ctaDescription: "Why work hard when you can play smart?",
     },
@@ -89,7 +89,7 @@ const siteContent = {
 
   genesisBlockContent: {
     title: "Genesis Block",
-    subtitle: "The Genesis of Satoshi Miner",
+    subtitle: "The Genesis of Satoshi Network",
     description: [
       {
         color: "#E38539",
@@ -97,7 +97,7 @@ const siteContent = {
       },
       {
         color: "white",
-        text: "Once upon a blockchain, there was Satoshi Nakamoto and Bitcoin—the OG of decentralization. Then came Satoshi Miner, your next-gen crypto playground.",
+        text: "Once upon a blockchain, there was Satoshi Nakamoto and Bitcoin—the OG of decentralization. Then came Satoshi Network, your next-gen crypto playground.",
       },
       {
         color: "#E38539",
@@ -108,7 +108,7 @@ const siteContent = {
 
   blockOneContent: {
     header: "Block One",
-    title: "Why Satoshi Miner?",
+    title: "Why Satoshi Network?",
     subtitle: "Because Crypto Should Be Fun, Not Stressful",
     features: {
       title: "Forget trading FOMO—we hacked DeFi to make it a vibe:",
@@ -133,7 +133,7 @@ const siteContent = {
     title: "Tokenomics—Powered by $satBTC",
     subtitle: "Where GameFi Meets DeFi",
     description:
-      "At the core of Satoshi Miner is $satBTC, our token driving by you The Community!",
+      "At the core of Satoshi Network is $satBTC, our token driving by you The Community!",
     pieChart: {
       items: [
         {
@@ -309,7 +309,7 @@ const siteContent = {
     title: "Got Questions? We’ve Got Answers",
     faqItems: [
       {
-        question: "What is Satoshi Miner?",
+        question: "What is Satoshi Network?",
         answer:
           "A gamified DeFi platform being build with SUI, TON and SOL blockchain power.",
       },
@@ -326,7 +326,7 @@ const siteContent = {
       {
         question: "Can I get rich?",
         answer:
-          "This is a community; everything is possible if we work together. Help grow Satoshi Miner; let’s win together.",
+          "This is a community; everything is possible if we work together. Help grow Satoshi Network; let’s win together.",
       },
     ],
   },

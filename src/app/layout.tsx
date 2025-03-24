@@ -17,16 +17,16 @@ export const anonymousPro = Anonymous_Pro({
 
 export const metadata: Metadata = {
   title:
-    "Satoshi Miner: Farm Bits Tokens | earn Yields and Stake your way to crypto glory all from your phone",
+    "Satoshi Network: Farm Bits Tokens | earn Yields and Stake your way to crypto glory all from your phone",
   description:
-    "Satoshi Miner transforms casual gaming into DeFi, blending the thrill of farming with the power of gaming!",
+    "Satoshi Network transforms casual gaming into DeFi, blending the thrill of farming with the power of gaming!",
   openGraph: {
     title:
-      "Satoshi Miner: Farm Bits Tokens | earn Yields and Stake your way to crypto glory all from your phone",
+      "Satoshi Network: Farm Bits Tokens | earn Yields and Stake your way to crypto glory all from your phone",
     description:
-      "Satoshi Miner transforms casual gaming into DeFi, blending the thrill of farming with the power of gaming!",
+      "Satoshi Network transforms casual gaming into DeFi, blending the thrill of farming with the power of gaming!",
     url: "https://satoshiminer.io",
-    siteName: "Satoshi Miner: Farm Bits Tokens",
+    siteName: "Satoshi Network: Farm Bits Tokens",
     images: [
       {
         url: "https://satoshiminer.io/images/logo.png", // Must be an absolute URL
@@ -40,9 +40,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Satoshi Miner: Farm Bits Tokens | earn Yields and Stake your way to crypto glory all from your phone",
+      "Satoshi Network: Farm Bits Tokens | earn Yields and Stake your way to crypto glory all from your phone",
     description:
-      "Satoshi Miner transforms casual gaming into DeFi, blending the thrill of farming with the power of gaming!",
+      "Satoshi Network transforms casual gaming into DeFi, blending the thrill of farming with the power of gaming!",
     siteId: "1545263305027092480",
     // creator: "@nextjs",
     // creatorId: "1467726470533754880",
