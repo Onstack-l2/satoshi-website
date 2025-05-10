@@ -19,7 +19,7 @@ export default function AlertMessage({
     >
       <p
         className={clsx(
-          "text-[#FFFFFF]  animate-slide whitespace-nowrap absolute animate-scroll-right top-0 right-0"
+          "text-[#FFFFFF]  animate-slide whitespace-nowrap absolute animate-scroll-left top-0 left-0"
         )}
         style={{ animationDuration: alertMessage.slideDuration }}
       >
